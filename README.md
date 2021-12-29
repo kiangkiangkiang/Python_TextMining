@@ -11,5 +11,5 @@ Aging Theory is also used to calculate the variation of trends over time.
 2. Because of the Chinese demonstration, a CKIP segmentation of Chinese words will be used. User have to go to http://ckipsvr.iis.sinica.edu.tw/
 and register to enable the CKIP module.
 
-3. In tfpdf python file, change to your CKIP accounts, and start up the demonstration of exist files.
+3. In tfpdf python file, change to your CKIP accounts (Line 51 : ckip = CKIPClient(HOST , PORT , ACCOUNT , PASSWORD) ), and start up the demonstration of exist files.
 
