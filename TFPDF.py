@@ -48,7 +48,7 @@ def cut(NumberOfText , AllText):
                     #8          #所有檔案
 def segmentText (NumberOfText , AllText):#斷詞    
     Result = []    
-    ckip = CKIPClient("140.109.19.104" , 1501 , 'kaokao0357' , 'z417452856396')    
+    #ckip = CKIPClient(HOST , PORT , ACCOUNT , PASSWORD)     # change this line to your account
     for i in range(NumberOfText):
         print(i)
         segment_results = ckip.segment(str(AllText[i]))#把list轉成string,才能分割
